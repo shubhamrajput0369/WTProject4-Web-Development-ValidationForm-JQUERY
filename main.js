@@ -26,3 +26,11 @@ $(document).ready(function () {
             },
         },
    
+     messages: {
+            fname: {
+                required: 'This field is required',
+                custom: 'Only characters are allowed'
+            },
+            lname: {
+                required: 'This field is required',
+                custom: 'Only characters are allowed'
