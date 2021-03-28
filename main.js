@@ -34,3 +34,15 @@ $(document).ready(function () {
             lname: {
                 required: 'This field is required',
                 custom: 'Only characters are allowed'
+            },
+            user_email: 'Enter a valid email',
+            pwd: {
+                minlength: 'Password must be of atleast 8 chars',
+            },
+            custom: "demo msg"
+        },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+});
